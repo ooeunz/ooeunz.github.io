@@ -108,8 +108,8 @@ analytics:
 # Site Author
 author:
   name             : "OOEUNZ"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
+  avatar           : "/imgs/bio-photo.jpg"
+  bio              : "늘 배웁니다"
   location         : "Seoul"
   email            : "yuns994@gmail.com"
   links:

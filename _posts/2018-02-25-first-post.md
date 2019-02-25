@@ -4,6 +4,9 @@ date: 2019-02-25 08:26:28 -0400
 categories: jekyll update
 ---
 
+Hello, I'm OOEUNZ.
+This is my first posting. :)
+
 안녕하세요 OOEUNZ입니다.
 이것은 저의 첫번째 포스팅이 되네요ㅎㅎ.
 
