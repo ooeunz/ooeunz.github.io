@@ -108,7 +108,7 @@ analytics:
 # Site Author
 author:
   name             : "OOEUNZ"
-  avatar           : "/assets/images/bio-photo.jpg"
+  avatar           : "/docs/assets/images/bio-photo.jpg"
   bio              : "배움"
   location         : "Seoul"
   email            : "yuns994@gmail.com"
@@ -285,7 +285,7 @@ compress_html:
 defaults:
   # _posts
   - scope:
-      path: "/docs"
+      path: ""
       type: posts
     values:
       layout: single
