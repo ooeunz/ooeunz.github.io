@@ -2,6 +2,7 @@
 title: "Welcome to my blog"
 date: 2019-02-25 08:26:28 -0400
 categories: jekyll update
+layout: post
 ---
 
 Hello, I'm OOEUNZ.
