@@ -5,8 +5,6 @@ permalink: /about_me/
 author_profile: true
 ---
 
-# About me
-
 안녕하세요 **DataScientist / Modeler** 를 꿈꾸는 학생입니다.
 저는 오랜기간 Design 분야를 공부하다가 최근 흥미가 생겨 Computer Science로 전공을 바꾸었습니다.
 하지만 지난 배웠던 것들을 버리고 싶지 않기에, Design과 ComputerScience. 감성과 논리 양 끝에 있는 학문의 연결점을 찾기 위해 늘 고민합니다.

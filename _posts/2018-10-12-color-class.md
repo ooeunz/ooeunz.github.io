@@ -1,8 +1,8 @@
 ---
-title: "나를 잃어가는 사람들"
+title: "색채론: 특이한 색채 사례"
 date: 2018-10-08 08:26:28 -0400
-categories: script
-tags: design, script
+categories: [script]
+tags: [design, script]
 ---
 
 

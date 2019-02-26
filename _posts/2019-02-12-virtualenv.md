@@ -1,8 +1,8 @@
 ---
 title: "pyenv 가상환경 +수정중"
 date: 2019-02-12 08:26:28 -0400
-categories: machinelearning
-tags: pyenv, virtualenv
+categories: ComputerScience
+tags: machinelearning
 ---
 
 
