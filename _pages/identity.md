@@ -1,5 +1,5 @@
 ---
-    path: "/identity/"
+    path: "/_posts/identity/"
     type: posts
     layout: single
     author_profile: true
