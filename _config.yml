@@ -11,15 +11,15 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
+remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "dirt" # "default", "air", "aqua", "contrast", "dark", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "OOEUNZ의 기술 블로그"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "OOEUNZ"
+description              : "Everything in the Datas."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "ooeunz/ooeunz.github.io"
@@ -108,7 +108,7 @@ analytics:
 author:
   name             : "OOEUNZ"
   avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "Everythins is in the Data."
+  bio              : "Everything is in the Data."
   location         : "Seoul"
   email            : "yuns994@gmail.com"
   links:
