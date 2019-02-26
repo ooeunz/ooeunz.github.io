@@ -1,7 +1,7 @@
 ---
     path: "/identity/"
     type: posts
-    layout:
+    layout: single
     author_profile: true
     read_time: true
     comments: # true
