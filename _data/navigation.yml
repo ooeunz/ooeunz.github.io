@@ -6,7 +6,7 @@ main:
     url: /about_me/
   - title: "categories"
     url: /categories/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
+  - title: "articles"
+    url: /articles/
   # - title: "Sitemap"
   #   url: /sitemap/
