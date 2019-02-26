@@ -1,8 +1,6 @@
 ---
-- scope:
-    path: "/_post/identity"
+    path: /_post/identity
     type: posts
-  values:
     layout:
     author_profile: true
     read_time: true
