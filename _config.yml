@@ -285,7 +285,7 @@ defaults:
   # _posts
   - scope:
       path: ""
-      type: categories
+      type: posts
     values:
       layout: categories
       author_profile: true
