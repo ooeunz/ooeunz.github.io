@@ -1,5 +1,6 @@
 ---
     type: posts
+    path: "/_posts/articles"
     layout: single
     author_profile: true
     read_time: true
