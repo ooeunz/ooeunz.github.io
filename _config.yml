@@ -287,8 +287,7 @@ defaults:
       path: ""
       type: posts
     values:
-      permalink: /categories/
-      layout: categories
+      layout: posts
       author_profile: true
       read_time: true
       comments: # true
