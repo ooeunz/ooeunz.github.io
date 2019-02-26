@@ -15,7 +15,7 @@ _이 블로그는 배운것을 정리하며, 몇몇의 개인적인 포스팅으
 
 
 ### Project
-* Emotion tracker to use classification Mashine Learning Algorithm
+* Emotion tracker to use classification Machine Learning Algorithm
 * Univ7.caleb Website
 * Commercial Strore Anaylysis
 
