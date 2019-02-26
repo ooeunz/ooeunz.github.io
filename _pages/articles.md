@@ -1,5 +1,6 @@
 ---
+title: articles
+layout: category
+permalink: /categories/articles/
 taxonomy: articles
-entries_layout: # list (default), grid
-
 ---
