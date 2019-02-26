@@ -260,7 +260,7 @@ tag_archive:
   type: liquid
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
+jekyll-archives:
   enabled:
     - categories
     - tags
@@ -287,7 +287,7 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: posts
+      layout: categories
       author_profile: true
       read_time: true
       comments: # true
