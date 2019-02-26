@@ -2,7 +2,7 @@
 title: "About me"
 layout : "single"
 permalink: /about_me/
-date: 2018-02-25T03:02:20+00:00
+author_profile: true
 ---
 
 ### 블로그를 시작하게 된 이유?
