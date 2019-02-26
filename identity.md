@@ -4,5 +4,6 @@ read_time: true
 comments: # true
 share: true
 related: true
-permalink: /_posts/identity/
+permalink: /identity/
+path: "/_post/identity/"
 ---
