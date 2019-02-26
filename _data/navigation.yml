@@ -6,7 +6,7 @@ main:
     url: /about_me/
   - title: "categories"
     url: /categories/
-  - title: "articles"
-    url: /articles/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "tags"
+    url: /tags/
+  - title: "year"
+    url: /year/
