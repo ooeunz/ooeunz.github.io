@@ -1,4 +1,12 @@
 ---
+title: "Posts by Category"
+layout: categories
+permalink: /categories/
+author_profile: true
+---
+
+
+<!-- ---
     type: posts
     path: "/_posts/articles"
     layout: single
@@ -11,4 +19,4 @@
     pagination:
       enabled: true
       category: articles
----
+--- -->
