@@ -7,7 +7,7 @@ author_profile: true
 
 안녕하세요 **DataScientist / Modeler** 를 꿈꾸는 학생입니다.
 저는 오랜기간 Design 분야를 공부하다가 최근 흥미가 생겨 Computer Science로 전공을 바꾸었습니다.
-하지만 지난 배웠던 것들을 버리고 싶지 않기에, Design과 ComputerScience. 감성과 논리 양 끝에 있는 학문의 연결점을 찾기 위해 늘 고민합니다.
+하지만 지난 배웠던 것들을 버리고 싶지 않기에, 논리와 감성의 양 끝에 존재한 두 학문의 연결성을 찾기위해 늘 고민합니다.
 
 현재 공부하고 있는것은 DataScience이며, Data analysis와 Machine Learning 등 폭 넓은 분야에 관심을 두고 있습니다. (서서히 좁혀나갈 계획입니다.)
 
