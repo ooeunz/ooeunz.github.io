@@ -1,72 +1,19 @@
 ---
-title: "pyenv 가상환경 +수정중"
+title: "가상환경에 대한 이해"
 date: 2019-02-12 08:26:28 -0400
 categories: ComputerScience
 tags: machinelearning
 ---
 
+### Life is too short, You need Python
+인생은 너무 짧으니 파이썬이 필요해.
 
-### Pyenv
-* no module _tkinter일 경우
-`$ brew install tcl-tk`
-또는
-`$ brew reinstall tcl-kr` 이후
-pyenv 파이썬 설치
+파이썬은 그 자체로도 간결한 문법과 가독성으로 급성장하고 있는 언어입니다. 여러 _편의성 있는 문법_들을 제공하고 (슬라이싱과 같은) _가독성이 좋기에_ 비전공자들이 처음 프로그래밍 세계에 입문할때 C언어와 같이 입문용으로 많이 배우는 언어중 하나입니다. 하지만 파이썬이 유용한 이유는 사실 그 뿐만이 아닙니다.
 
-* 설치목록
-`$ pyenv install —list`
+파이썬은 강력한 라이브러리들을 많이 가지고 있습니다. 이 라이브러리들은 파이썬에 날개를 달아주었는데 그 중 pandas와 numpy들과 같은 라이브러리들은 최근 데이터 분석에서도 빛을 내고 있으며 R언어와 유사할 정도의 사용률을 보이고 있습니다.
 
-* 파이썬 목록
-`$ pyenv versions`
+하지만 파이썬의 많은 라이브러리와 버전들은 그때 그때 컴퓨터에 프로젝트에 맞게 사용하기 어려움이 생깁니다. 그러한 문제를 해결하기 위해 가상환경을 사용하게 됩니다.
 
-* 특정버전 삭제
-`$ pyenv uninstall <버전 이름>`
-
-* 파이썬 설치
-`$ pyenv install <파이썬 버전>`
-안될시엔
-```
-$ CFLAGS="-I$(brew --prefix readline)/include -I$(brew --prefix openssl)/include -I$(xcrun --show-sdk-path)/usr/include" \
-LDFLAGS="-L$(brew --prefix readline)/lib -L$(brew --prefix openssl)/lib" \
-PYTHON_CONFIGURE_OPTS=--enable-unicode=ucs2 \
-pyenv install -v 3.7.1
-```
-* 파이썬 글로벌 설정
-`$ pyenv global <파이썬 버전>`
-
-### virtualenv 가상환경
-*  가상환경 : 생성
-`$ pyenv virtualenv <version> <가상환경 이름>`
-`$ pyenv virtualenv <가상환경 이름>`
-* 가상환경 : 삭제
-`$ pyenv uninstall <가상환경 이름>`
-* 가상환경 실행
-`$ source activate <가상환경 이름> `
-* 가상환경 나가기
-`$ source deactivate`
-
-
-### matplotlib
-
-* x와 y에 데이터를 입력한 후, plt.plot(x, y)를 이용해 그래프를 그렸습니다.
- `plt.plot(x, y)`
-
-
-
-* 말 그대로 x축 label과 y축 label의 이름을 지정해주는 함수 입니다. x축에는 'Numbers'를 y축에는 'Counting'을 입력했습니다.
-
-`plt.xlabel(), plt.ylabel()`
-
-* 그래프의 메인 제목을 입력하는 함수 입니다.
-`plt.title()`
-
-* 그래프를 보여줌
-`plt.show()`
-
--그래프를 보여주는 창을 띄워주는 코드입니다. plt.show()를 입력하지 않고 코드를 실행 시키면 아무것도 뜨지 않습니다.
-
-R(R Studio)의 경우, 따로 plt.show()와 같은 코드 없이 plot 함수를 실행하면 바로 그래프가 나타나 어색했지만, 쉽게 얘기하면 앞에까지의 코드들이 다 뒷배경에 그리는 역할이라면, 이거를 앞으로 들고 나오는 역할이 plt.show() 입니다.
-
-
-### pandas
-[판다스 기본문법](https://ordo.tistory.com/34?category=732886)
+### 가상환경이란?
+가상환경이란 컴퓨터안에 독립된 파이썬 공간을 생성하는 것을 의미합니다.
+예를들어 A라는 프로젝트에는 python3버전이, B라는 프로젝트에는 python2버전이 사용되었다고 가정하겠습니다. 만약 가상환경이 없다면 우리는 그때그때 프로젝트에 맞게 컴퓨터에 파이썬을 새로 설치해야 했을 것입니다. 하지만 pyenv와 virtualenv를 이용하면 파이썬을 권총에 탄알 장착하듯 필요에 따라 파이썬 버전을 바꿀 수 있습니다.
