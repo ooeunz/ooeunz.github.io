@@ -158,7 +158,6 @@ footer:
 include:
   - .htaccess
   - _pages
-  - _includes
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -288,9 +287,9 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: categories
+      layout: posts
       author_profile: true
       read_time: true
-      comments: true
+      comments: true # false
       share: true
       related: false
