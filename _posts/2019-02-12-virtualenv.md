@@ -24,14 +24,14 @@ pyenv는 파이썬 버전을 바꾸는 것, virtualenv는 그 파이썬 버전�
 본 설치는 맥환경을 대상으로 합니다.
 
 * brew로 설치
-`$ brew update`
-`$ brew install pyenv`
+```$ brew update```
+```$ brew install pyenv```
 
 * 설치 가능 목록 (pyenv로 설치 할 수 있는 python 목록)
-`$ pyenv install —list`
+```$ pyenv install —list```
 
 * 파이썬 설치
-`$ pyenv install <파이썬 버전>`
+```$ pyenv install <파이썬 버전>```
 안될시엔
 ```
 $ CFLAGS="-I$(brew --prefix readline)/include -I$(brew --prefix openssl)/include -I$(xcrun --show-sdk-path)/usr/include" \
@@ -41,23 +41,23 @@ pyenv install -v 3.7.1
 ```
 
 * 설치한 파이썬 목록
-`$ pyenv versions`
+```$ pyenv versions```
 
 * 특정버전 삭제
-`$ pyenv uninstall <버전 이름>`
+```$ pyenv uninstall <버전 이름>```
 
 * 파이썬 글로벌 설정
-`$ pyenv global <파이썬 버전>`
+```$ pyenv global <파이썬 버전>```
 
 
 
 ### virtualenv 가상환경 설치
 *  가상환경 : 생성
-`$ pyenv virtualenv <version> <가상환경 이름>`
-`$ pyenv virtualenv <가상환경 이름>`
+```$ pyenv virtualenv <version> <가상환경 이름>```
+```$ pyenv virtualenv <가상환경 이름>```
 * 가상환경 : 삭제
-`$ pyenv uninstall <가상환경 이름>`
+```$ pyenv uninstall <가상환경 이름>```
 * 가상환경 실행
-`$ source activate <가상환경 이름> `
+```$ source activate <가상환경 이름> ```
 * 가상환경 나가기
-`$ source deactivate`
+```$ source deactivate```
