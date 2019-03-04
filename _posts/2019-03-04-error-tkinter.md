@@ -1,6 +1,6 @@
 ---
 title: "error: ImportError: No module named _tkinter"
-date: 2019-02-12 08:26:28 -0400
+date: 2019-03-04 08:26:28 -0400
 categories: ComputerScience
 tags: [error, matplotlib]
 ---
