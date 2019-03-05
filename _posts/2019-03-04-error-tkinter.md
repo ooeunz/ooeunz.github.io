@@ -45,4 +45,5 @@ $ brew install tcl-tk
 python에서 graph등을 그릴때 실행하는 환경을 지원하는 환경이다. 사용자에 따라 콘솔에 그리고나 툴에 그리거나 등등 여러가지 환경을 지원한다.
 
 * 다양한 backend 확인
+
 [Usage — Matplotlib 2.0.2 documentation](https://matplotlib.org/faq/usage_faq.html)
